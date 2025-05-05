@@ -1,7 +1,11 @@
 # Managing Python Virtual Environments with Anaconda
+
 Working on multiple Python projects often requires different dependencies or specific versions of libraries. This can lead to conflicts if managed within the same Python environment. This issue can be solved with virtual environments. Virtual environments provide an isolated setting for each project, ensuring that dependencies for one project do not interfere with those of another.  
+
 A virtual environment is an isolated copy of Python that maintains its own files, directories, and paths so that you can manage project-specific dependencies without conflict. It does not inherit packages from your system's Python installation or other environments, making each project clean and manageable.  
+
 Anaconda simplifies this process further by integrating environment management directly, allowing you to create, manage, and switch between environments with ease. This isolation helps maintain project integrity and avoids version conflicts among packages.  
+
 When using Anaconda, each environment can also specify its own Python version, separate from the system's default Python or the base Anaconda installation. This feature is especially useful when different projects require different Python versions.
 
 ## Checking python version
@@ -72,6 +76,7 @@ pip install my_lib
 
 ## requirements.txt
 Requirements.txt is central for documenting and managing project dependencies more efficiently, especially when sharing your project or setting it up on a different machine. This file lists all packages and their versions, making it straightforward to replicate an environment.  
+
 ### Generating requirements.txt
 For packages installed with pip, use:
 ```bash
@@ -95,5 +100,6 @@ This command generates a list of all Conda-installed packages, which can be used
 ```bash
 conda create --name new_env --file environment.txt
 ```
+
 ### Best Practices
 Utilizing both **pip freeze** and **conda list --export** allows for comprehensive environment documentation. **requirements.txt** is ideal for pip-specific dependencies, while **environment.txt** caters to Conda's ecosystem.  

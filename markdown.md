@@ -1,6 +1,6 @@
 # Introduction to Markdown Syntax
 
-A file ending with ".md " is a markdown file. Markdown is a lightweight markup language - a language that describes to a computer how text is formatted, structured, etc.  
+A file ending with ".md" is a markdown file. Markdown is a lightweight markup language - a language that describes to a computer how text is formatted, structured, etc.  
 Markdown is commonly used for README files to document important information about projects in the software sector, engineering sector, and many more. Markdown can be converted into other markup languages, such as HTML. 
 The following contains a quick guide to the basic markdown syntax:
 
@@ -17,7 +17,7 @@ Titles and subtitles are created with a `#`-prefix. The number of `#` indicates 
 
 ## Plain Text and New Line
 
-Plain text can written directly into the .md file.  
+Plain text can be written directly into the .md file.  
 To start a new line, leave two spaces "  " at the end of the existing line and write the new line on the next line in your markdown file.
 
 ## Emphasis
